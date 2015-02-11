@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
+source 'https://rails-assets.org'
 
+gem 'rails-assets-restangular'
+
+gem 'angularjs-rails'
+gem 'foundation-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
