@@ -11,4 +11,4 @@ deploy:
   run:
     - "bundle exec rake db:migrate"
 before_script:
-  - psql -c 'create database beast-mode_test;' -U postgres
+  - psql -c 'create database beast_mode_test;' -U postgres
