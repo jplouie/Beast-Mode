@@ -1,3 +1,8 @@
 language: ruby
 rvm:
-  - 2.1.2
+- 2.1.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: DkubZLUCpf6T8bEz0AGtk9HmTaDFPZvllUrdzr3C130YoGV8D0nKQdO1Vi0hBUvTPtzVckPb1YPMNvqzVmRHCMa1s7Bo8HsJZd3K/Jct4P9aulH6/HQkwLIdyo3R62/c2MCEag3CTWK1oOCS1V6YaoNGeb30mlFzAoXRzPBFKUg=
+  app: beast-mode
